@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "~/Views/Shared/Layouts/Light/_LightLayout_INI.cshtml";
+}
+@section HeadScripts {
+    @RenderSection("HeadScripts", false)
+}
+
+@section MainContent {
+    @RenderSection("MainContent", false)
+}
+@RenderBody()
+@section Scripts {
+    @RenderSection("Scripts", false)
+}
